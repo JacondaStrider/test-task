@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>2</id>
+		<name>Hform</name>
+		<table_name>highload_form</table_name>
+	</hiblock>
+	<langs>
+		<lang>
+			<id>2</id>
+			<lid>ru</lid>
+			<name>Форма обратной связи на highload блоке</name>
+		</lang>
+	</langs>
+	<fields>
+		<field>
+			<id>27</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_FIO</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>fio_hform</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>100</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>ФИО</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>ФИО</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>ФИО</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru>Вы не ввели ваши ФИО</ru>
+			</error_message>
+			<help_message>
+				<en />
+				<ru>Введите ваши ФИО</ru>
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>29</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_PHONE</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>phone_hform</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>100</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Телефон</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Телефон</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Телефон</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru>Введите ваш телефон</ru>
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>30</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_QUESTION</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>question_hform</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>100</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Вопрос</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Вопрос</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Вопрос</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru>Вы не ввели ваш вопрос</ru>
+			</error_message>
+			<help_message>
+				<en />
+				<ru>Введите ваш вопрос</ru>
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>31</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_EMAIL</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>email_hform</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>100</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Email</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Email</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Email</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru>Вы не ввели ваш Email</ru>
+			</error_message>
+			<help_message>
+				<en />
+				<ru>Введите ваш Email</ru>
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>32</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_DATE</field_name>
+			<user_type_id>date</user_type_id>
+			<xml_id>date_hform</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>
+					<type>NOW</type>
+					<value />
+				</default_value>
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Дата создания</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Дата создания</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Дата создания</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>datetime</base_type>
+		</field>
+	</fields>
+	<items>
+		<item>
+			<id>1</id>
+			<uf_fio>Федотова Анна Николаевна</uf_fio>
+			<uf_phone>+7(911)1111111</uf_phone>
+			<uf_question>Быть или не быть?</uf_question>
+			<uf_email>fanna@mail.ru</uf_email>
+			<uf_date>17.09.2022</uf_date>
+		</item>
+		<item>
+			<id>2</id>
+			<uf_fio>Анисов Артур Артёмович</uf_fio>
+			<uf_phone>+7(911)1111113</uf_phone>
+			<uf_question>Как дела?</uf_question>
+			<uf_email>aartur@mail.ru</uf_email>
+			<uf_date>18.09.2022</uf_date>
+		</item>
+		<item>
+			<id>3</id>
+			<uf_fio>Виконтцев Евгений Васильевич</uf_fio>
+			<uf_phone>+7(911)1111156</uf_phone>
+			<uf_question>Как дела?</uf_question>
+			<uf_email>vikonzev@mail.ru</uf_email>
+			<uf_date>19.09.2022</uf_date>
+		</item>
+		<item>
+			<id>4</id>
+			<uf_fio>Федотов Федор Александрович</uf_fio>
+			<uf_phone>+7(911)1111112</uf_phone>
+			<uf_question>Как дела?</uf_question>
+			<uf_email>ffedor@mail.ru</uf_email>
+			<uf_date>01.09.2022</uf_date>
+		</item>
+		<item>
+			<id>5</id>
+			<uf_fio>Баранцев Павел Евгеньевич</uf_fio>
+			<uf_phone>+7(911)1111152</uf_phone>
+			<uf_question>Как дела?</uf_question>
+			<uf_email>barantsevpavel@mail.ru</uf_email>
+			<uf_date>19.09.2022</uf_date>
+		</item>
+		<item>
+			<id>6</id>
+			<uf_fio>Румынцев Анатолий Евгеньевич</uf_fio>
+			<uf_phone>+7(911)1111196</uf_phone>
+			<uf_question>Как дела?</uf_question>
+			<uf_email>ruminzev@mail.ru</uf_email>
+			<uf_date>19.09.2022</uf_date>
+		</item>
+		<item>
+			<id>10</id>
+			<uf_fio>Голубенко Анатолий Владимирович</uf_fio>
+			<uf_phone>+7 (911) 111-11-11</uf_phone>
+			<uf_question>PHP?</uf_question>
+			<uf_email>ganatolii@mail.ru</uf_email>
+			<uf_date>20.09.2022</uf_date>
+		</item>
+		<item>
+			<id>11</id>
+			<uf_fio>Озерская Наталья Витальевна</uf_fio>
+			<uf_phone>+7(911)1111111</uf_phone>
+			<uf_question>Страна?</uf_question>
+			<uf_email>onata@mail.ru</uf_email>
+			<uf_date>20.09.2022</uf_date>
+		</item>
+		<item>
+			<id>13</id>
+			<uf_fio>Карелов Дмитрий Романович</uf_fio>
+			<uf_phone>+7 (921) 321-32-13</uf_phone>
+			<uf_question>Как дела?</uf_question>
+			<uf_email>kdmitry@mail.ru</uf_email>
+			<uf_date>20.09.2022</uf_date>
+		</item>
+	</items>
+</hiblock>
